@@ -15,6 +15,8 @@
 		004A5A7717033AA300304531 /* ip4-ccb in Resources */ = {isa = PBXBuildFile; fileRef = 004A5A7317033AA300304531 /* ip4-ccb */; };
 		004A5A7817033AA300304531 /* res-ip4 in Resources */ = {isa = PBXBuildFile; fileRef = 004A5A7417033AA300304531 /* res-ip4 */; };
 		004A5A7917033AA300304531 /* res-ip5 in Resources */ = {isa = PBXBuildFile; fileRef = 004A5A7517033AA300304531 /* res-ip5 */; };
+		008C0DBC170B2671005AA0A5 /* MenuBaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008C0DB9170B2671005AA0A5 /* MenuBaseLayer.cpp */; };
+		008C0DBF170B2CCD005AA0A5 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 008C0DBD170B2CCD005AA0A5 /* MainScene.cpp */; };
 		1A1CF3691626CEFF00AFC938 /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CF3671626CEFF00AFC938 /* ipad */; };
 		1A1CF36A1626CEFF00AFC938 /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CF3681626CEFF00AFC938 /* ipadhd */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -252,6 +254,11 @@
 		004A5A7317033AA300304531 /* ip4-ccb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ip4-ccb"; sourceTree = "<group>"; };
 		004A5A7417033AA300304531 /* res-ip4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "res-ip4"; sourceTree = "<group>"; };
 		004A5A7517033AA300304531 /* res-ip5 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "res-ip5"; sourceTree = "<group>"; };
+		008C0DB9170B2671005AA0A5 /* MenuBaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuBaseLayer.cpp; sourceTree = "<group>"; };
+		008C0DBA170B2671005AA0A5 /* MenuBaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBaseLayer.h; sourceTree = "<group>"; };
+		008C0DBB170B2671005AA0A5 /* MenuBaseLayerLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBaseLayerLoader.h; sourceTree = "<group>"; };
+		008C0DBD170B2CCD005AA0A5 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		008C0DBE170B2CCD005AA0A5 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
 		1A1CF3661626CB6000AFC938 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
 		1A1CF3671626CEFF00AFC938 /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipad; sourceTree = "<group>"; };
 		1A1CF3681626CEFF00AFC938 /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadhd; sourceTree = "<group>"; };
@@ -768,6 +775,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008C0DB8170B2671005AA0A5 /* MenuUI */ = {
+			isa = PBXGroup;
+			children = (
+				008C0DB9170B2671005AA0A5 /* MenuBaseLayer.cpp */,
+				008C0DBA170B2671005AA0A5 /* MenuBaseLayer.h */,
+				008C0DBB170B2671005AA0A5 /* MenuBaseLayerLoader.h */,
+			);
+			path = MenuUI;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1744,11 +1761,14 @@
 		BF23D4E2143315EB00657E08 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				008C0DB8170B2671005AA0A5 /* MenuUI */,
 				1A1CF3661626CB6000AFC938 /* AppMacros.h */,
 				BF23D4E3143315EB00657E08 /* AppDelegate.cpp */,
 				BF23D4E4143315EB00657E08 /* AppDelegate.h */,
 				BF23D4E5143315EB00657E08 /* HelloWorldScene.cpp */,
 				BF23D4E6143315EB00657E08 /* HelloWorldScene.h */,
+				008C0DBD170B2CCD005AA0A5 /* MainScene.cpp */,
+				008C0DBE170B2CCD005AA0A5 /* MainScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -2051,6 +2071,8 @@
 				4D96DC3B1702F48E00ED514A /* cpSpatialIndex.c in Sources */,
 				4D96DC3C1702F48E00ED514A /* cpSweep1D.c in Sources */,
 				4D96DC3D1702F48E00ED514A /* cpVect.c in Sources */,
+				008C0DBC170B2671005AA0A5 /* MenuBaseLayer.cpp in Sources */,
+				008C0DBF170B2CCD005AA0A5 /* MainScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
