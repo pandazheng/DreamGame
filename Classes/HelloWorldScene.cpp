@@ -31,6 +31,8 @@ bool HelloWorld::init()
     CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
     CCPoint origin = CCDirector::sharedDirector()->getVisibleOrigin();
 
+    _tileMap = CCTMXTiledMap::create("TMX/Normal.tmx");
+    this->addChild(_tileMap);
 //    /////////////////////////////
 //    // 2. add a menu item with "X" image, which is clicked to quit the program
 //    //    you may modify it.

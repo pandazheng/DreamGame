@@ -22,6 +22,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		4D90017017116F38000464DC /* TMX in Resources */ = {isa = PBXBuildFile; fileRef = 4D90016F17116F38000464DC /* TMX */; };
 		4D96D7B61702F27500ED514A /* CCAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D96CDA91702F26800ED514A /* CCAction.cpp */; };
 		4D96D7B71702F27500ED514A /* CCActionCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D96CDAB1702F26800ED514A /* CCActionCamera.cpp */; };
 		4D96D7B81702F27500ED514A /* CCActionCatmullRom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D96CDAD1702F26800ED514A /* CCActionCatmullRom.cpp */; };
@@ -266,6 +267,7 @@
 		1D6058910D05DD3D006BFB54 /* TD001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D90016F17116F38000464DC /* TMX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TMX; sourceTree = "<group>"; };
 		4D96CDA91702F26800ED514A /* CCAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCAction.cpp; sourceTree = "<group>"; };
 		4D96CDAA1702F26800ED514A /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		4D96CDAB1702F26800ED514A /* CCActionCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCActionCamera.cpp; sourceTree = "<group>"; };
@@ -1739,6 +1741,7 @@
 		784521C214EBA449009D533B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4D90016F17116F38000464DC /* TMX */,
 				004A5A7217033AA300304531 /* fonts */,
 				004A5A7317033AA300304531 /* ip4-ccb */,
 				004A5A7417033AA300304531 /* res-ip4 */,
@@ -1853,6 +1856,7 @@
 				004A5A7717033AA300304531 /* ip4-ccb in Resources */,
 				004A5A7817033AA300304531 /* res-ip4 in Resources */,
 				004A5A7917033AA300304531 /* res-ip5 in Resources */,
+				4D90017017116F38000464DC /* TMX in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
